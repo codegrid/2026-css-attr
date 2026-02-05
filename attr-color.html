@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    div {
+      color: attr(data-color type(<color>), red);
+    }
+  </style>
+</head>
+<body>
+  <div data-color="blue">data-color属性に「blue」を指定したもの</div>
+  <div data-color="#ff00b3">data-color属性に「#ff00b3」を指定したもの</div>
+  <div data-color="あああ">data-color属性に「あああ」を指定したもの</div>
+  <div>data-color属性なし</div>
+</body>
+</html>

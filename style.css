@@ -1,0 +1,12 @@
+@supports not (x: attr(x type(*))) {
+  body::before {
+    content: "お使いのブラウザは、新しいattr() をサポートしていません。";
+    display: block;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}

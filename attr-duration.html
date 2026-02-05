@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    div {
+      margin-bottom: 30px;
+      padding: 10px;
+    }
+    div {
+      transition-duration: attr(data-duration s, 3s);
+      &:hover {
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-duration="0.5">data-durationに「0.5」を指定したもの</div>
+  <div>指定なし（デフォルトの3s）</div>
+</body>
+</html>
